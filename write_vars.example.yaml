@@ -1,0 +1,15 @@
+---
+username: example_user
+password: insert_your_user_password
+
+## valid enabled method, ie userpass ldap 
+vault_method: ldap
+
+vault_proto: https
+vault_address: vault.example.com
+
+# vault_token: s.xbSm7momkn59TsC6j3Snf3MH
+
+vault_path: secrets/test 
+vault_data:
+  password: "123"
